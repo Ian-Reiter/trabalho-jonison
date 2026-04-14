@@ -1,5 +1,6 @@
 using System.Security.Cryptography;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class WeaponSistem : MonoBehaviour
 {
@@ -16,10 +17,6 @@ public class WeaponSistem : MonoBehaviour
     [SerializeField] Transform firePoint;
     [SerializeField] GameObject fire;
 
-    void Start()
-    {
-    }
-
     void Update()
     {
         mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
@@ -28,7 +25,15 @@ public class WeaponSistem : MonoBehaviour
         transform.rotation = Quaternion.Euler(0, 0, angle);
     }
 
-    private void FixedUpdate()
+    public void Attack(InputAction.CallbackContext context)
     {
+        canFire = false;
+        Instantiate(fire, firePoint.position, firePoint.rotation);
+        Invoke("CDfire", attackSpeed);
+    }
+
+    public void CDfire()
+    {
+        canFire = true;
     }
 }
