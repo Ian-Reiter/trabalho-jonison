@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a9a564f39d0ed96489fef9ebf4530ba4
+guid: b71fc60aaf8630244a9d199233db7acf
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,9 +123,51 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: paletaPrincipalNova
+  - name: Frame_0
     originalName: 
-    pivot: {x: 0.5, y: 0}
+    pivot: {x: 0.5, y: -0.90909094}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 45
+      width: 16
+      height: 11
+    spriteID: 45eb84e7d6489c044a7dd8f664919d6d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 45}
+  - name: Frame_1
+    originalName: 
+    pivot: {x: 0.5625, y: -0.8333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 25
+      width: 16
+      height: 12
+    spriteID: f5f8c86947aa5d148aa0954b38a4b973
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 25}
+  - name: Frame_2
+    originalName: 
+    pivot: {x: 0.625, y: -0.7692308}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -134,8 +176,8 @@ ScriptedImporter:
       x: 4
       y: 4
       width: 16
-      height: 2
-    spriteID: 964c9b13f8e326e458131896f7558d92
+      height: 13
+    spriteID: 3c5bc4cec9111704185b5d206629ee22
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -148,25 +190,43 @@ ScriptedImporter:
   asepriteLayers:
   - layerIndex: 0
     uuid:
-      value0: 2653603329
+      value0: 1054211881
       value1: 0
       value2: 0
       value3: 0
     guid: 0
-    name: paletaPrincipalNova
+    name: Weapon1_Sprite
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: paletaPrincipalNova
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
-        x: 0
-        y: 0
+        x: 8
+        y: 10
         width: 16
-        height: 2
-      spriteId: 964c9b13f8e326e458131896f7558d92
+        height: 11
+      spriteId: 45eb84e7d6489c044a7dd8f664919d6d
+    - name: Frame_1
+      frameIndex: 1
+      additiveSortOrder: 0
+      cellRect:
+        x: 7
+        y: 10
+        width: 16
+        height: 12
+      spriteId: f5f8c86947aa5d148aa0954b38a4b973
+    - name: Frame_2
+      frameIndex: 2
+      additiveSortOrder: 0
+      cellRect:
+        x: 6
+        y: 10
+        width: 16
+        height: 13
+      spriteId: 3c5bc4cec9111704185b5d206629ee22
     linkedCells: []
     parentIndex: -1
   platformSettings:
@@ -185,5 +245,5 @@ ScriptedImporter:
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 16, y: 2}
-  previousTextureSize: {x: 32, y: 16}
+  canvasSize: {x: 32, y: 32}
+  previousTextureSize: {x: 32, y: 64}

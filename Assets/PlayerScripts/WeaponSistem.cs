@@ -27,9 +27,12 @@ public class WeaponSistem : MonoBehaviour
 
     public void Attack(InputAction.CallbackContext context)
     {
-        canFire = false;
-        Instantiate(fire, firePoint.position, firePoint.rotation);
-        Invoke("CDfire", attackSpeed);
+        if (context.performed && canFire)
+        {
+            canFire = false;
+            Instantiate(fire, firePoint.position, firePoint.rotation);
+            Invoke(nameof(CDfire), attackSpeed);
+        }
     }
 
     public void CDfire()

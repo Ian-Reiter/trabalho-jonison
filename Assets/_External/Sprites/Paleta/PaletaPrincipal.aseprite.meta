@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f7ea48f11a709f04cbed1f03a9e9413f
+guid: 998bd76ec94f7c14490eed5e8d6e3f2c
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -84,8 +84,6 @@ ScriptedImporter:
     generateAnimationClips: 1
     addSortingGroup: 1
     addShadowCasters: 0
-    generateIndividualEvents: 1
-    generateSpriteAtlas: 1
   asepriteImporterSettings:
     fileImportMode: 1
     importHiddenLayers: 0
@@ -99,8 +97,6 @@ ScriptedImporter:
     generateAnimationClips: 1
     addSortingGroup: 1
     addShadowCasters: 0
-    generateIndividualEvents: 1
-    generateSpriteAtlas: 1
   importFileNodeState: 1
   platformSettingsDirtyTick: 0
   textureAssetName: 
@@ -139,7 +135,7 @@ ScriptedImporter:
       y: 4
       width: 16
       height: 2
-    spriteID: ea17735667b158b4d93424e309634475
+    spriteID: c6b5dc0ca6e4d664ea55a2d5c5248aff
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -149,7 +145,6 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
   spriteSheetImportData: []
-  tileSetImportData: []
   asepriteLayers:
   - layerIndex: 0
     uuid:
@@ -171,13 +166,22 @@ ScriptedImporter:
         y: 0
         width: 16
         height: 2
-      spriteId: ea17735667b158b4d93424e309634475
+      spriteId: c6b5dc0ca6e4d664ea55a2d5c5248aff
     linkedCells: []
-    tileCells: []
-    tileSetIndex: 0
     parentIndex: -1
-  tileSets: []
-  platformSettings: []
+  platformSettings:
+  - name: Default
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 

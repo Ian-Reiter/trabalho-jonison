@@ -500,7 +500,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   angle: 0
   srGun: {fileID: 289517009}
-  attackSpeed: 0.1
+  attackSpeed: 0.2
   firePoint: {fileID: 1803608092}
   fire: {fileID: 7665278869205224719, guid: 3cd9e58a88117cb4e985d5c4d211eef6, type: 3}
 --- !u!1 &1479375535
@@ -892,13 +892,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1803608091}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 0.468, y: 0.153, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 289517007}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
 --- !u!1 &2108687875
 GameObject:
   m_ObjectHideFlags: 0
