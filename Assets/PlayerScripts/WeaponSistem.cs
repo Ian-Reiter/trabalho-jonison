@@ -23,6 +23,8 @@ public class WeaponSistem : MonoBehaviour
         gunDirection = mousePosition - new Vector2(transform.position.x, transform.position.y);
         angle = Mathf.Atan2(gunDirection.y, gunDirection.x) * Mathf.Rad2Deg - 0f;
         transform.rotation = Quaternion.Euler(0, 0, angle);
+
+        FlipWeapon();
     }
 
     public void Attack(InputAction.CallbackContext context)
@@ -38,5 +40,17 @@ public class WeaponSistem : MonoBehaviour
     public void CDfire()
     {
         canFire = true;
+    }
+
+    public void FlipWeapon()
+    {
+        if (angle > -90 && angle < 90)
+        {
+            srGun.flipY = false;
+        }
+        else
+        {
+            srGun.flipY = true;
+        }
     }
 }
